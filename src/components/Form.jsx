@@ -11,9 +11,10 @@ const Form = () => {
             'service_7fh4nx6', 
             'template_1d4pigs',
             form.current,
-            'YOUR_PUBLIC_KEY')
+            '5NCZedujgHkFIVD1X')
         .then((result) => {
             console.log(result.text);
+            alert("message sent")
         }, (error) => {
             console.log(error.text);
         });
