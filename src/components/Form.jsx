@@ -7,6 +7,7 @@ const Form = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
+        // mail api
         emailjs.sendForm(
             'service_7fh4nx6', 
             'template_1d4pigs',
